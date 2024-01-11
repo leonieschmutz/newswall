@@ -1,0 +1,102 @@
+.card-highlight {
+  background-color: var(--brand-primary-color);
+  border-radius: 10px;
+  padding: 25px 0;
+  position: relative;
+  img.card-highlight-img {
+    border-bottom: 1px solid var(--white-color);
+    border-top: 1px solid var(--white-color);
+    max-height: 254px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-highlight-button {
+    position: absolute;
+    top: 180px;
+    right: 14;
+    z-index: 1;
+  }
+}
+
+.card-highlight-content {
+  p {
+    color: var(--text-clear-faded-color);
+    font-family: "Switzer";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 11px;
+
+    @media (min-width: 768px) {
+      font-size: 22px;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 36px;
+    }
+  }
+  padding: 24px 7px 90px;
+
+  @media (min-width: 768px) {
+    padding: 24px 7px 50px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 24px 7px 110px;
+  }
+}
+
+.card-highlight-informations {
+  p.card-highlight-writter {
+    color: var(--white-color);
+    font-family: "Switzer";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+
+    @media (min-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 24px;
+    }
+  }
+
+  .card-highlight-date,
+  .card-highlight-hour {
+    color: var(--text-clear-faded-color);
+    font-family: "Switzer";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+
+    @media (min-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 24px;
+    }
+  }
+
+  .card-highlight-hour {
+    font-style: italic;
+    margin-left: 9px;
+  }
+}
+
+.card-highlight-informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 7px;
+
+  .card-highlight-time {
+    display: flex;
+    flex-direction: row;
+  }
+}
