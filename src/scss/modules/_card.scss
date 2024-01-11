@@ -158,29 +158,6 @@
 //   }
 // }
 
-.card-highlight-swiss-section {
-  background-color: var(--swiss-blog-color);
-  h3 {
-    color: var(--black-color);
-  }
-  p {
-    color: var(--text-faded-color);
-  }
-
-  img.card-highlight-swiss-section {
-    border-bottom: 1px solid var(--black-color);
-    border-top: 1px solid var(--black-color);
-  }
-  p.card-highlight-writter {
-    color: var(--black-color);
-  }
-
-  .card-highlight-date,
-  .card-highlight-hour {
-    color: var(--text-faded-color);
-  }
-}
-
 .card-publicite {
   padding: 25px;
   background-color: var(--text-faded-color);
@@ -203,4 +180,60 @@
 
 .card-highlight-economy-section {
   background-color: var(--economy-blog-color);
+}
+
+.card-economy {
+  background-color: var(--economy-blog-color);
+}
+.card-highlight.card {
+  position: relative;
+
+  .card-button {
+    position: absolute;
+    top: 150px;
+  }
+  img.card-img {
+    max-height: 206px;
+  }
+
+  .card-highlight-informations {
+    padding: 11px 11px 0;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+
+  .card-highlight-content.card-content {
+    padding-bottom: 0;
+  }
+}
+
+.card-highlight-swiss-section,
+.card-swiss {
+  background-color: var(--swiss-blog-color);
+  h3 {
+    color: var(--black-color);
+  }
+
+  h4 {
+    color: var(--black-color);
+  }
+
+  p {
+    color: var(--text-faded-color);
+  }
+
+  img.card-highlight-swiss-section {
+    border-bottom: 1px solid var(--black-color);
+    border-top: 1px solid var(--black-color);
+  }
+  p.card-highlight-writter {
+    color: var(--black-color);
+  }
+
+  .card-highlight-date,
+  .card-highlight-hour {
+    color: var(--text-faded-color);
+  }
 }
